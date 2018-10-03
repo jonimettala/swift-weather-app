@@ -27,7 +27,7 @@ class MyTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")
         
-        cell!.textLabel!.text = "hello"
+        cell!.textLabel!.text = data[indexPath.row]
         return cell!
     }
 }
