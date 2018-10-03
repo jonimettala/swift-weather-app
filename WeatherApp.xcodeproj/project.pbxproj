@@ -14,7 +14,7 @@
 		F8D9BA9A2164FC2500C7F2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D9BA982164FC2500C7F2B4 /* LaunchScreen.storyboard */; };
 		F8D9BAA52164FC2600C7F2B4 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9BAA42164FC2600C7F2B4 /* WeatherAppTests.swift */; };
 		F8D9BAB02164FC2600C7F2B4 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9BAAF2164FC2600C7F2B4 /* WeatherAppUITests.swift */; };
-		F8D9BABE21650D0A00C7F2B4 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9BABD21650D0A00C7F2B4 /* MyTableViewController.swift */; };
+		F8D9BABE21650D0A00C7F2B4 /* ForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9BABD21650D0A00C7F2B4 /* ForecastTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		F8D9BAAB2164FC2600C7F2B4 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D9BAAF2164FC2600C7F2B4 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		F8D9BAB12164FC2600C7F2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D9BABD21650D0A00C7F2B4 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		F8D9BABD21650D0A00C7F2B4 /* ForecastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				F8D9BA8F2164FC2500C7F2B4 /* AppDelegate.swift */,
 				F8D9BA912164FC2500C7F2B4 /* ViewController.swift */,
 				F8D9BA932164FC2500C7F2B4 /* Main.storyboard */,
-				F8D9BABD21650D0A00C7F2B4 /* MyTableViewController.swift */,
+				F8D9BABD21650D0A00C7F2B4 /* ForecastTableViewController.swift */,
 				F8D9BA962164FC2500C7F2B4 /* Assets.xcassets */,
 				F8D9BA982164FC2500C7F2B4 /* LaunchScreen.storyboard */,
 				F8D9BA9B2164FC2500C7F2B4 /* Info.plist */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D9BA922164FC2500C7F2B4 /* ViewController.swift in Sources */,
-				F8D9BABE21650D0A00C7F2B4 /* MyTableViewController.swift in Sources */,
+				F8D9BABE21650D0A00C7F2B4 /* ForecastTableViewController.swift in Sources */,
 				F8D9BA902164FC2500C7F2B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

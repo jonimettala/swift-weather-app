@@ -1,5 +1,5 @@
 //
-//  MyTableViewController.swift
+//  ForecastTableViewController.swift
 //  WeatherApp
 //
 //  Created by Joni Mettälä on 03/10/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyTableViewController: UITableViewController {
+class ForecastTableViewController: UITableViewController {
     
     let data = ["hey", "hi", "hello"]
     
@@ -25,7 +25,7 @@ class MyTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "forecastcell")
         
         cell!.textLabel!.text = data[indexPath.row]
         return cell!
