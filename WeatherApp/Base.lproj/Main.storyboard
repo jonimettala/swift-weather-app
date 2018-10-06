@@ -105,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="1481" y="-806"/>
         </scene>
-        <!--View Controller-->
+        <!--Current Weather View Controller-->
         <scene sceneID="WNt-Xl-j6d">
             <objects>
-                <viewController restorationIdentifier="currentview" id="cnX-Xs-uaS" sceneMemberID="viewController">
+                <viewController restorationIdentifier="currentview" id="cnX-Xs-uaS" customClass="CurrentWeatherViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zvQ-Cm-eXV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
