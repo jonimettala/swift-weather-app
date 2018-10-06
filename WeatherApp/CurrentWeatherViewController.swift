@@ -10,9 +10,14 @@ import UIKit
 
 class CurrentWeatherViewController: UIViewController {
     
+    let requester = WeatherRequester()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        requester.fetchCityWeather(city: "Helsinki")
+        
     }
     
     
