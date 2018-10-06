@@ -12,7 +12,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="MM4-t9-XhC">
             <objects>
-                <tabBarController id="IvS-dH-ZBn" sceneMemberID="viewController">
+                <tabBarController restorationIdentifier="tabbarcontroller" id="IvS-dH-ZBn" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rFM-J3-StT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -31,7 +31,7 @@
         <!--City Table View Controller-->
         <scene sceneID="W15-YK-L89">
             <objects>
-                <tableViewController id="rzF-Fc-8BC" customClass="CityTableViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="cityview" id="rzF-Fc-8BC" customClass="CityTableViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Yq8-Qh-juK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
         <!--Forecast Table View Controller-->
         <scene sceneID="8ap-tG-GC3">
             <objects>
-                <tableViewController id="8VD-61-q00" customClass="ForecastTableViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="forecastview" id="8VD-61-q00" customClass="ForecastTableViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="P4r-C0-heB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,7 +89,7 @@
         <!--Forecast-->
         <scene sceneID="leT-mn-HjY">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oNF-8i-PB2" sceneMemberID="viewController">
+                <navigationController restorationIdentifier="forecastnavcontroller" automaticallyAdjustsScrollViewInsets="NO" id="oNF-8i-PB2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Forecast" id="lIt-vF-cKP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="64U-Zu-Spc">
@@ -108,7 +108,7 @@
         <!--View Controller-->
         <scene sceneID="WNt-Xl-j6d">
             <objects>
-                <viewController id="cnX-Xs-uaS" sceneMemberID="viewController">
+                <viewController restorationIdentifier="currentview" id="cnX-Xs-uaS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zvQ-Cm-eXV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,7 +124,7 @@
         <!--Cities-->
         <scene sceneID="Zn0-l3-6za">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aBe-4z-iVM" sceneMemberID="viewController">
+                <navigationController restorationIdentifier="citiesnavcontroller" automaticallyAdjustsScrollViewInsets="NO" id="aBe-4z-iVM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Cities" id="UBU-Mv-V0y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rn7-mw-5yJ">
@@ -143,7 +143,7 @@
         <!--Current-->
         <scene sceneID="kCD-am-je2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V5Q-vF-90S" sceneMemberID="viewController">
+                <navigationController restorationIdentifier="currentnavcontroller" automaticallyAdjustsScrollViewInsets="NO" id="V5Q-vF-90S" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Current" id="7nm-t4-Gdm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cH5-Yd-UuZ">
