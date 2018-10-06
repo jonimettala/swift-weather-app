@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="598" y="-806"/>
         </scene>
-        <!--Table View Controller-->
+        <!--City Table View Controller-->
         <scene sceneID="W15-YK-L89">
             <objects>
-                <tableViewController id="rzF-Fc-8BC" sceneMemberID="viewController">
+                <tableViewController id="rzF-Fc-8BC" customClass="CityTableViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Yq8-Qh-juK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
