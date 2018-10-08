@@ -11,12 +11,13 @@ import UIKit
 class CurrentWeatherViewController: UIViewController {
     
     let requester = WeatherRequester()
+    let settingView = CityTableViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        requester.fetchCityWeather(city: "Helsinki")
+        requester.fetchCityWeather(city: settingView.selectedCity)
         
     }
     

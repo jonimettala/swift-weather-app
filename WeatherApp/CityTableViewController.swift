@@ -10,7 +10,9 @@ import UIKit
 
 class CityTableViewController: UITableViewController {
     
-    let data = ["city", "jee", "joo"]
+    let data = ["Helsinki", "Oulu", "Tampere", "Turku"]
+    
+    var selectedCity = "Oulu"
     
     override func viewDidLoad() {
         super.viewDidLoad()
