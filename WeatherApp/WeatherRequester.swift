@@ -27,7 +27,8 @@ class WeatherRequester {
         NSLog(resstr!)
         
         do {
-            // decode data
+            let weather = try JSONDecoder().decode(CurrentWeather.self, from: data!)
+            NSLog(String(weather.main.temp))
         } catch {
             NSLog("error")
         }
